@@ -8,7 +8,9 @@ int main(int argc, char const *argv[])
    //freopen("output.txt", "w", stdout);
 #endif
     int a, b;
-    scanf("%d %d", &a, &b);
-    printf("%d\n", a+b);
+    while (scanf("%d %d", &a, &b) != EOF) {
+    	printf("%d\n", a+b);
+    }
+    
 	return 0;
 }
