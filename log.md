@@ -13,3 +13,6 @@
 ##Mathematics
 ####1401 Factorial
 1. 阶乘末尾的0的个数： 累加对5各幂的商。
+
+####2262 Goldbach's Conjecture
+1. prime算法：用tag，［2，sqrt(n)］遍历，注意不要漏了==sqrt。
