@@ -7,8 +7,12 @@ int main(int argc, char const *argv[])
     freopen("/Users/fzf_air/code/2017/POJ/text.txt", "r", stdin);
    //freopen("output.txt", "w", stdout);
 #endif
-    int a, b;
-    scanf("%d %d", &a, &b);
-    printf("%d\n", a+b);
+    int N;
+    scanf("%d", &N);
+    for (int i = 0; i < N; ++i)
+    {
+    	/* code */
+    }
+    printf("%d\n");
 	return 0;
 }
