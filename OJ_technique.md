@@ -23,5 +23,9 @@
     }
 
 	}io;
+	
 
 
+###注意
+- abs(int)在stdlib.h中。fabsf(float)在math.h中。还有llabs
+- 对于有很多test case的，可以直接对每一个case得出结果，不必存储。

@@ -16,3 +16,7 @@
 
 ####2262 Goldbach's Conjecture
 1. prime算法：用tag，［2，sqrt(n)］遍历，注意不要漏了==sqrt。
+
+####2693 Chocolate Chip Cookies
+1. 过两点的定半径圆心坐标：
+2. edge case啊！初始化。

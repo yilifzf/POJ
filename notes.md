@@ -46,3 +46,19 @@ int gcd(int a, int b) {       while(b){int r = a % b; a = b; b = r;}       ret
 ####6. Area of a Triangle
 - Use cross product: 2S=|(B−A)×(C−A)| 
 - Area of a Simple Polygon: If P is convex, we can **decompose** P into triangles:
+
+####7. circle with radius intersect two points
+
+```
+q = sqrt((x2-x1)^2 + (y2-y1)^2)
+x3 = (x1+x2)/2
+y3 = (y1+y2)/2
+
+first circle:
+x = x3 + sqrt(r^2-(q/2)^2)*(y1-y2)/q
+y = y3 + sqrt(r^2-(q/2)^2)*(x2-x1)/q
+  
+Second Circle:
+x = x3 - sqrt(r^2-(q/2)^2)*(y1-y2)/q
+y = y3 - sqrt(r^2-(q/2)^2)*(x2-x1)/q  
+```
