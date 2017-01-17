@@ -25,7 +25,7 @@ myInt bfs(myInt n)
 int main(int argc, char const *argv[])
 {
 	myInt a;
-	while(1) 
+	while (1)
 	{
 		scanf("%lld", &a);
 		if (a == 0)
