@@ -64,3 +64,11 @@ Second Circle:
 x = x3 - sqrt(r^2-(q/2)^2)*(y1-y2)/q
 y = y3 - sqrt(r^2-(q/2)^2)*(x2-x1)/q  
 ```
+
+## Data Strucure
+###1. LCA
+- online algorithms:
+
+- offline algorithms: Tarjan
+
+- RMQ
