@@ -20,3 +20,17 @@
 #### 2693 Chocolate Chip Cookies
 1. 过两点的定半径圆心坐标：
 2. edge case啊！初始化。
+
+## DataStructures
+###2418 Hardwood Species
+1. 符号表、字典。
+
+###1330 Nearest Common Ancestors
+1. LCA算法
+
+###3367 Expression
+1. 树的遍历，后缀表达式。
+2. 如何要用到动态内存，或者要利用指针来实现如树一样的关系，不必用new的堆的方法，这样很慢。可以在栈中先开辟一块空间，如申请一个数组，利用数组中元素的地址作为引用来实现树结构，不必花费new的开销，提高速度。
+
+###1984 Navigation Nightmare
+1. Union-Find并查集
